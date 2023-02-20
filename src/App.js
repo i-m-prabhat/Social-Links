@@ -1,6 +1,17 @@
 import './App.css';
 
 function App() {
+  function close(){
+    let closed = document.querySelector("#popup");
+      closed.style.display="none"
+    console.log("Popup closed!")
+  }
+  function open(){
+ let closed = document.querySelector("#popup");
+      closed.style.margin="auto"
+      closed.style.display="block"
+    console.log("Popup Opend!")
+  }
   return (
     <>
     <section class="animated-background">
@@ -9,7 +20,7 @@ function App() {
       <div id="stars3"></div>
     </section>
 
-    <a id="profilePicture" href="#popup">
+    <a id="profilePicture" href="#popup" onClick={open}>
       <img src="./logo.jpeg" alt="Profile Picture"/>
     </a>
 
@@ -23,7 +34,7 @@ function App() {
         <div class="popup-quote">
           Hey Visitors,I 'm Prabhat. You might recognize me as MERN Stack Developer 👨‍💻
         </div>
-        <a class="popup-close" onclick="history.back()">&times;</a>
+        <a class="popup-close" onClick={close}>&times;</a>
       </div>
     </div>
 
