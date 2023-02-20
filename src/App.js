@@ -10,18 +10,18 @@ function App() {
     </section>
 
     <a id="profilePicture" href="#popup">
-      <img src="" alt="Profile Picture"/>
+      <img src="./logo.jpeg" alt="Profile Picture"/>
     </a>
 
     <div class="overlay" id="popup">
       <div class="popup">
         <div class="popup-photo">
-          <a href="/" target="_blank" rel="noreferrer">
-            <img src="/" alt="Profile Picture"/>
+          <a href="./logo.jpeg" target="_blank" rel="noreferrer">
+            <img src="./logo.jpeg" alt="Profile Picture"/>
           </a>
         </div>
         <div class="popup-quote">
-          But... the sensation that I've lost something lingers for a longtime after I wake up.
+          Hey Visitors,I 'm Prabhat. You might recognize me as MERN Stack Developer 👨‍💻
         </div>
         <a class="popup-close" onclick="history.back()">&times;</a>
       </div>
@@ -50,7 +50,11 @@ function App() {
     </div>
 
     <div id="hashtag">
-      #BeHappy❤
+      ❤
+      ❤
+      ❤
+      ❤
+      ❤
     </div>
     </>
   );
