@@ -49,14 +49,17 @@ function App() {
       <a class="link" href="https://www.linkedin.com/in/devprabhat" target="_blank" rel="noreferrer">
         <i class="fab fa-linkedin">&nbsp;</i>Linkedin
       </a>
-      <a class="link" href="https://www.facebook.com/" target="_blank" rel="noreferrer">
+      {/* <a class="link" href="https://www.facebook.com/" target="_blank" rel="noreferrer">
         <i class="fab fa-facebook">&nbsp;</i>Facebook
-      </a>
-      <a class="link" href="https://www.instagram.com/" target="_blank" rel="noreferrer">
+      </a> */}
+      <a class="link" href="https://www.instagram.com/i_m_prabhat__/" target="_blank" rel="noreferrer">
         <i class="fab fa-instagram">&nbsp;</i>Instagram
       </a>
-      <a class="link" href="https://twitter.com/" target="_blank" rel="noreferrer">
+      <a class="link" href="https://twitter.com/i_m_prabhat__" target="_blank" rel="noreferrer">
         <i class="fab fa-twitter">&nbsp;</i>Twitter
+      </a>
+      <a class="link" href="https://www.youtube.com/@digitaljagran" target="_blank" rel="noreferrer">
+        <i class="fab fa-youtube">&nbsp;</i>YouTube
       </a>
     </div>
 
